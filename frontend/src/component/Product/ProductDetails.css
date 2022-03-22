@@ -1,0 +1,373 @@
+.ProductDetails {
+  background-color: rgb(255, 255, 255);
+  width: 100vw;
+  max-width: 100%;
+  padding: 6vmax;
+  box-sizing: border-box;
+  display: flex;
+}
+/* .productsHeading {
+  margin: 2vmax auto;
+  width: 60vw;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.171);
+  padding: 2vmax 0;
+  color: rgba(0, 0, 0, 0.678);
+  font: 500 1.5vmax "Roboto";
+  text-align: center;
+  align-items: center;
+  font-family: abchanel-corpo-vietnam,PingFangHK-Semibold,Microsoft YaHei,sans-serif;
+} */
+.ProductDetails > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2vmax;
+  box-sizing: border-box;
+  /* border: 1px solid rgb(87, 85, 85); */
+  
+}
+
+.ProductDetails > div:last-child {
+  align-items: flex-start;
+}
+
+.CarouselImage {
+  width: 27vmax;
+}
+
+.detailsBlock-1 > h2 {
+  color: rgb(54, 54, 54);
+  font-family: abchanel-corpo-vietnam,PingFangHK-Semibold,Microsoft YaHei,sans-serif;
+  text-transform: uppercase;
+  /* align-items: center; */
+  padding: 1rem 1.75rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.detailsBlock-1 > p {
+  color: rgba(53, 53, 53, 0.842);
+  font: 200 0.6vmax cursive;
+  font-size: 0.7rem;
+  padding: 0.65rem 0rem;
+}
+
+.detailsBlock-2 {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.205);
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.205); */
+  width: 70%;
+  padding: 1vmax 0;
+}
+
+.detailsBlock-2-span {
+  font: 200 0.9vmax cursive;
+  color: rgba(0, 0, 0, 0.699);
+  padding: 0 0 0 1rem;
+}
+
+.detailsBlock-3 {
+  width: 70%;
+  /* align-items: center;
+  justify-content: center;
+  text-align: center; */
+}
+
+
+.detailsBlock-3 > h1 {
+  font-family: abchanel-corpo-vietnam,PingFangHK-Semibold,Microsoft YaHei,sans-serif;
+  color: rgba(24, 24, 24, 0.87);
+  /* font: 400 1.8vmax; */
+  font-size: 1.5rem;
+  margin: 1vmax 0;
+}
+.detailsBlock-3 > h2 {
+  font-family: abchanel-corpo-vietnam,PingFangHK-Semibold,Microsoft YaHei,sans-serif;
+  padding: 0 1rem;
+}
+.detailsBlock-3 > p {
+  /* border-top: 1px solid rgba(0, 0, 0, 0.205);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.205); */
+  padding: 1vmax 0;
+  color: rgba(0, 0, 0, 0.651);
+  font: 400 1vmax "Roboto";
+  margin: 1vmax 0;
+}
+.detailsBlock-3-1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.detailsBlock-3-1-1 > button:first-child {
+  border: none;
+  background-color: rgba(146, 146, 146, 0.918);
+  padding: 0.5vmax 0.6rem;
+  cursor: pointer;
+  color: white;
+  transition: all 0.5s;
+  font-size: 1.25rem;
+  border-radius: 4px 0 0 4px;
+}
+.detailsBlock-3-1-1 > button:last-child {
+  border: none;
+  background-color: rgba(146, 146, 146, 0.918);
+  padding: 0.5vmax;
+  cursor: pointer;
+  color: white;
+  transition: all 0.5s;
+  font-size: 1.25rem;
+  border-radius: 0 4px 4px 0;
+}
+.detailsBlock-3-1-1 > button:hover {
+  background-color: rgba(71, 71, 71, 0.884);
+}
+
+.detailsBlock-3-1-1 > input {
+  border: none;
+  width: 75%;
+  padding: 0.5vmax;
+  width: 5vmax;
+  text-align: center;
+  outline: none;
+  /* font: 400 0.9vmax "Roboto"; */
+  font-family: abchanel-corpo-vietnam,PingFangHK-Semibold,Microsoft YaHei,sans-serif;
+  font-size: 1rem;
+  border: 1px solid rgb(212, 212, 212);
+  color: rgba(0, 0, 0, 0.74);
+}
+
+.detailsBlock-3 > button:last-child {
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  color: white;
+  transition: all 0.5s;
+  background-color: tomato;
+  /* font: 500 0.7vmax "Roboto"; */
+  font-family: abchanel-corpo-vietnam,PingFangHK-Semibold,Microsoft YaHei,sans-serif;
+  font-size: 1rem;
+  border-radius: 3px;
+  padding: 0.5vmax 2vmax;
+  /* align-items: center;
+  text-align: center; */
+  margin: 1vmax;
+  outline: none;
+  box-shadow: 2px 2px 1.5px rgba(218, 117, 99, 0.849);
+}
+
+.detailsBlock-3 > button:last-child:hover {
+  background-color: rgb(214, 84, 61);
+}
+
+
+
+.detailsBlock-4 {
+  color: rgb(54, 54, 54);
+  font-family: abchanel-corpo-vietnam,PingFangHK-Semibold,Microsoft YaHei,sans-serif;
+  /* font: 500 1.2vmax sans-serif; */
+  margin: 0 10rem 1rem 10rem;  
+  /* width: 80%; */
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+}
+.detailsBlock-4 >h3 {
+  border-bottom: 1px solid rgba(117, 117, 117, 0.7);
+  padding: 0.5rem 1rem;
+}
+.detailsBlock-4 > p {
+  /* color: rgba(0, 0, 0, 0.534);
+  font: 300 0.8vmax sans-serif; */
+  /* width: 70%; */
+  /* align-items: center;
+  font-size: 0.9rem; */
+  /* margin: 0.5rem 5rem; */
+}
+.optionText > p {
+    line-height: 1.4285714286;
+    font-family: Arial,sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    letter-spacing: .00625rem;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+
+.submitReview {
+  border: none;
+  cursor: pointer;
+  color: white;
+  margin: 5rem 0 0 15rem ;
+  transition: all 0.5s;
+  background-color: tomato;
+  font-family: abchanel-corpo-vietnam,PingFangHK-Semibold,Microsoft YaHei,sans-serif;
+  font-size: 1rem;
+  border-radius: 3px;
+  padding: 0.5vmax 2vmax;
+  outline: none;
+  box-shadow: 2px 2px 1.5px rgba(218, 117, 99, 0.849);
+}
+.submitReview:hover {
+  background-color: rgb(197, 68, 45);
+  /* transform: scale(1.1); */
+}
+
+.submitDialog {
+  display: flex;
+  flex-direction: column;
+}
+.submitDialogTextArea {
+  border: 1px solid rgba(0, 0, 0, 0.082);
+  margin: 1vmax 0;
+  outline: none;
+  padding: 1rem;
+  font: 300 1rem "Roboto";
+}
+
+.reviewsHeading {
+  color: #000000be;
+  font-family: abchanel-corpo-vietnam,PingFangHK-Semibold,Microsoft YaHei,sans-serif;
+  /* font: 500 1.4vmax "Roboto"; */
+  /* font-size: 13px; */
+  font-weight: 400;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+  padding: 1vmax;
+  width: 20vmax;
+  margin: auto;
+  margin-bottom: 4vmax;
+}
+.reviews {
+  display: flex;
+  overflow: auto;
+}
+
+.reviewCard {
+  flex: none;
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.226);
+  border: 1px solid rgba(56, 56, 56, 0.116);
+  width: 30vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1vmax;
+  padding: 3vmax;
+}
+.reviewCard > img {
+  width: 5vmax;
+}
+.reviewCard > p {
+  color: rgba(0, 0, 0, 0.836);
+  font: 600 0.9vmax "Roboto";
+}
+.reviewCardComment {
+  color: rgba(0, 0, 0, 0.445);
+  font: 300 0.8vmax cursive;
+}
+
+.noReviews {
+  font: 400 1.3vmax "Gill Sans";
+  text-align: center;
+  color: rgba(0, 0, 0, 0.548);
+}
+
+@media screen and (max-width: 600px) {
+  .ProductDetails {
+    flex-direction: column;
+    height: unset;
+  }
+  /* .optionIMG {
+    width: 90%;
+  } */
+
+  .ProductDetails > div:last-child {
+    align-items: center;
+  }
+
+  .detailsBlock-1 > h2 {
+    font-size: 2.8vmax;
+    text-align: center;
+  }
+
+  .detailsBlock-1 > p {
+    text-align: center;
+    font-size: 1.5vmax;
+  }
+
+  .detailsBlock-2 {
+    justify-content: center;
+  }
+  .detailsBlock-2 > span {
+    font-size: 1.5vmax;
+  }
+
+  .detailsBlock-3 > h1 {
+    font: 700 3vmax "Franklin Gothic Medium";
+    text-align: center;
+  }
+
+  .detailsBlock-3-1 {
+    flex-direction: column;
+  }
+
+  .detailsBlock-3-1-1 {
+    padding: 2vmax 0;
+  }
+  .detailsBlock-3-1-1 > button {
+    padding: 1.2vmax;
+    width: 4vmax;
+  }
+
+  .detailsBlock-3-1-1 > input {
+    padding: 1.1vmax 2vmax 0.6vmax 2vmax;
+    width: 3vmax;
+    font: 400 1.8vmax "Roboto";
+  }
+
+  .detailsBlock-3-1 > button:last-child {
+    font: 500 1.7vmax "Roboto";
+    padding: 1.5vmax;
+    width: 20vmax;
+    margin: 3vmax 0;
+  }
+
+  .detailsBlock-3 > p {
+    padding: 2.5vmax 0;
+    text-align: center;
+    font: 400 2vmax "Roboto";
+  }
+
+  .detailsBlock-4 {
+    margin: 1rem 0rem ;
+    padding: 1rem;
+    /* border-bottom: 1px solid rgb(143, 143, 143); */
+  }
+
+  .detailsBlock-4 > p {
+    font: 300 1.8vmax sans-serif;
+  }
+
+  .submitReview {
+    /* font: 500 1.7vmax "Roboto"; */
+    padding: 1vmax 1.6rem;
+    width: auto;
+    margin: 3vmax 2rem;
+  }
+  .reviewsHeading {
+    font-size: 13px;
+  }
+  .reviewCard > p {
+    font: 600 3vw "Roboto";
+  }
+  .reviewCardComment {
+    font: 300 5vw cursive;
+  }
+}

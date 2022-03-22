@@ -1,0 +1,30 @@
+.speedDial {
+  position: fixed;
+  right: 3vmax;
+  top: 3vmax;
+}
+
+.speedDialIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+.navBar{
+  text-align: center;
+margin: 2rem;
+}
+.header{
+  height: 50px;
+  background-color: #e6e6e6;
+  border: 2px solid #cccccc ;
+  box-shadow: 2px 2px 3px rgb(189, 187, 186);
+}
+.settingLink {
+  font-size: 1.35rem;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 50px;
+  font-family: Helvetica,Arial,"DejaVu Sans","Liberation Sans",Freesans,sans-serif;
+  padding: 0 7rem;
+  color: red;
+}
